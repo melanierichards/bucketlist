@@ -1,0 +1,107 @@
+/*
+ *  =============================================
+ *  LISTVIEW PAGES
+ *  =============================================
+ */
+
+/*
+ *  MASTHEAD / LAYOUT
+ *  ---------------------------------------------
+ */
+
+.list-view__masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  padding-top: 12em;
+}
+
+.list-view__content {
+  padding: $space-s;
+}
+
+@media (min-width: $bp-s) {
+  .list-view__content {
+    padding: $space-m;
+  }
+}
+
+@media (min-width: $bp-m) {
+  .list-view__masthead {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+
+    padding-top: $space-m;
+  }
+
+  .list-view__content {
+    width: 50%;
+    padding: $space-xl $space-s;
+  }
+
+  .list-view__content--pnw {
+    float: right;
+  }
+}
+
+@media (min-width: $bp-l) {
+  .list-view__content {
+    padding: $space-xl $space-l;
+  }
+}
+
+/*
+ *  BUCKETLIST ITEMS
+ *  ---------------------------------------------
+ */
+
+.bucketlist {
+  list-style: none;
+  counter-reset: item;
+}
+
+.item {
+  position: relative;
+  padding-left: 2.75em;
+
+  &:before {
+    position: absolute;
+    left: 0;
+    width: 2em;
+    text-align: right;
+
+    content: counter(item);
+    counter-increment: item;
+
+    font: .75em/1.75 $font-heading;
+    color: $color-meta;
+  }
+}
+
+.item__notes {
+  font-size: .825em;
+  color: $color-meta;
+}
+
+/* A little more space w/ link underline */
+a + .item__notes {
+  margin-top: .5em;
+}
+
+.item__completed {
+  text-decoration: line-through;
+}
+
+@media (min-width: $bp-s) {
+  .item {
+    padding-left: 3.25em;
+  }
+}
+
+@media (min-width: $bp-l) {
+  .item__notes {
+    font-size: .75em;
+  }
+}

@@ -1,17 +1,17 @@
 {% include head.html %}
 {% include header.html %}
 
-<article class="list-view list-view--{{ page.slug }}">
-    <header class="list-view__header">
-        <h1>
+<article class="list-view">
+    <header class="masthead masthead--{{ page.slug }} list-view__masthead">
+        <h1 class="masthead__title">
             <span>{{ page.title }}</span>
         </h1>
     </header>
-    <div class="list-view__content">
+    <div class="list-view__content list-view__content--{{ page.slug }}">
         {{ content }}
         {% assign listCat = page.slug %}
         {% assign items = site.data.[listCat] %}
-        <ol class="items">
+        <ol class="bucketlist">
             {% for item in items %}
                 <li class="item">
                     {% if item.completed %}

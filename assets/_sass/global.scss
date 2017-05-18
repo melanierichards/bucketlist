@@ -1,6 +1,12 @@
 /*
- *	BASICS
- *	---------------------------------------------
+ *  =============================================
+ *  GLOBAL STYLES
+ *  =============================================
+ */
+
+/*
+ *  BASICS
+ *  ---------------------------------------------
  */
 
 * {
@@ -12,6 +18,10 @@
 body {
   margin: 0;
   padding: 0;
+
+  /* Force scrollbars to prevent bouncing effect b/t pages */
+  overflow-y: scroll;
+
   font: 400 112.5%/1.4 $font-body;
   color: $color-body;
 }
@@ -45,18 +55,105 @@ a:hover {
 }
 
 /*
- *	TYPOGRAPHY
- *	---------------------------------------------
+ *  TYPOGRAPHY
+ *  ---------------------------------------------
  */
 
 h1, h2 {
-  display: inline-block;
-  margin: 0 auto;
-  background: #fff;
-
   font: 1.25em/1.125 $font-heading;
   text-transform: uppercase;
   letter-spacing: .05em;
+}
+
+li + li {
+  margin-top: 1em;
+}
+
+@media (min-width: $bp-s) {
+  h1, h2 {
+    font-size: 1.5em;
+  }
+}
+
+/*
+ *  UTILITIES
+ *  ---------------------------------------------
+ */
+
+.sr-only {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute !important;
+}
+
+/*
+ *  HEADER
+ *  ---------------------------------------------
+ */
+
+.site-header {
+  position: fixed;
+  z-index: 2;
+  top: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+a.site-title {
+  display: inline-block;
+  border-bottom: 0;
+
+  font-family: $font-heading;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.site-title__name {
+  display: block;
+  
+  font-family: $font-body;
+  font-size: .75em;
+}
+
+/*
+ *  MASTHEADS
+ *  For context-specific styles, see home.scss
+ *  and listview.css
+ *  ---------------------------------------------
+ */
+
+.masthead {
+  display: flex;
+  align-items: center;
+
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+
+  padding: $space-s;
+
+  text-align: center;
+}
+
+.masthead--pnw {
+  background: $color-pnw;
+}
+
+.masthead--global {
+  right: 0;
+  left: auto;
+  background: $color-global;
+}
+
+.masthead__title {
+  display: inline-block;
+  margin: 0 auto;
+  background: #fff;
 
   a, span {
     display: inline-block;
@@ -73,53 +170,8 @@ h1, h2 {
   }
 }
 
-li + li {
-  margin-top: 1em;
-}
-
 @media (min-width: $bp-s) {
-  h1, h2 {
-    font-size: 1.5em;
+  .masthead {
+    padding: $space-m;
   }
-}
-
-/*
- *	UTILITIES
- *	---------------------------------------------
- */
-
-.sr-only {
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  position: absolute !important;
-}
-
-/*
- *	HEADER
- *	---------------------------------------------
- */
-
-.site-header {
-  position: fixed;
-  z-index: 2;
-  top: 2em;
-  text-align: center;
-  width: 100%;
-}
-
-a.site-title {
-  border-bottom: 0;
-
-  font-family: $font-heading;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-}
-
-.site-title__name {
-  display: block;
-  
-  font-family: $font-body;
-  font-size: .75em;
 }

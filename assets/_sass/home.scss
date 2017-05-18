@@ -1,41 +1,22 @@
 /*
- *	HOME PAGE
- *	---------------------------------------------
+ *  =============================================
+ *  HOME PAGE
+ *  =============================================
  */
 
-.main--home {
-  overflow-y: scroll;
-}
+/*
+ *  MASTHEAD
+ *  ---------------------------------------------
+ */
 
-.half {
-  display: flex;
-  align-items: center;
-
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-
-  padding: 2em;
-
-  text-align: center;
-}
-
-.half--global {
-  top: auto;
-  bottom: 0;
-}
-
-@media (min-width: $bp-m) {
-  .half {
-    width: 50%;
-    height: 100%;
+@media (max-width: $bp-m) {
+  .home__masthead {
+    width: 100%;
+    height: 50%;
   }
 
-  .half--global {
-    right: 0;
-    left: auto;
+  .home__masthead.masthead--global {
+    top: auto;
+    bottom: 0;
   }
 }
