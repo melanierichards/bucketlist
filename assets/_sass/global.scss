@@ -1,0 +1,125 @@
+/*
+ *	BASICS
+ *	---------------------------------------------
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 400 112.5%/1.4 $font-body;
+  color: $color-body;
+}
+
+:focus {
+  outline: 1px dotted;
+  outline-offset: 1px;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #000;
+  color: #fff;
+}
+
+a:link, a:visited {
+  border-bottom: 2px solid #f95948;
+  text-decoration: none;
+
+  color: #000;
+}
+
+a:hover {
+  border-bottom-color: #000;
+
+  cursor: pointer;
+}
+
+/*
+ *	TYPOGRAPHY
+ *	---------------------------------------------
+ */
+
+h1, h2 {
+  display: inline-block;
+  margin: 0 auto;
+  background: #fff;
+
+  font: 1.25em/1.125 $font-heading;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+
+  a, span {
+    display: inline-block;
+    padding: .5em;
+  }
+
+  a:link, a:visited {
+    border-bottom: 0;
+  }
+
+  a:hover {
+    background: #000;
+    color: #fff;
+  }
+}
+
+li + li {
+  margin-top: 1em;
+}
+
+@media (min-width: $bp-s) {
+  h1, h2 {
+    font-size: 1.5em;
+  }
+}
+
+/*
+ *	UTILITIES
+ *	---------------------------------------------
+ */
+
+.sr-only {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute !important;
+}
+
+/*
+ *	HEADER
+ *	---------------------------------------------
+ */
+
+.site-header {
+  position: fixed;
+  z-index: 2;
+  top: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+a.site-title {
+  border-bottom: 0;
+
+  font-family: $font-heading;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.site-title__name {
+  display: block;
+  
+  font-family: $font-body;
+  font-size: .75em;
+}

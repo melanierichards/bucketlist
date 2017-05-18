@@ -1,15 +1,17 @@
 {% include head.html %}
 {% include header.html %}
 
-<article class="halves">
-    <header class="half half--{{ page.slug }}">
-        <h1>{{ page.title }}</h1>
+<article class="list-view list-view--{{ page.slug }}">
+    <header class="list-view__header">
+        <h1>
+            <span>{{ page.title }}</span>
+        </h1>
     </header>
-    <div class="half">
+    <div class="list-view__content">
         {{ content }}
         {% assign listCat = page.slug %}
         {% assign items = site.data.[listCat] %}
-        <ul class="items">
+        <ol class="items">
             {% for item in items %}
                 <li class="item">
                     {% if item.url %}
@@ -22,7 +24,7 @@
                     {% endif %}
                 </li>
             {% endfor %}
-        </ul>
+        </ol>
     </div>
 </article>
 

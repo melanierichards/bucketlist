@@ -1,0 +1,46 @@
+/*
+ *	VARIABLES
+ *	---------------------------------------------
+ */
+
+/* FONTS */
+$font-body: "nimbus-sans", "Helvetica Neue", Helvetica, sans-serif;
+$font-heading: "nimbus-sans-extended";
+
+/* BREAKPOINTS */
+$bp-xs: 25em;
+$bp-s: 42em;
+$bp-m: 48em;
+$bp-l: 64em;
+$bp-xl: 75em;
+$bp-xxl: 100em;
+
+/* MARGINS */
+$space-xl: 6em;
+$space-l: 4.5em;
+$space-m: 3em;
+$space-s: 1.5em;
+$space-xs: 1em;
+$space-xxs: .5em;
+
+/* COLORS */
+$color-body: #4b4b4b;
+$color-meta: #777;
+$color-pnw: #d7f2f1;
+$color-global: #fcf5f5;
+
+/*
+ *	MIXINS
+ *	---------------------------------------------
+ */
+
+@mixin all-caps() {
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+
+@mixin pseudo() {
+  display: block;
+  content: '';
+  position: absolute;
+}
