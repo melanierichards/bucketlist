@@ -14,10 +14,20 @@
         <ol class="items">
             {% for item in items %}
                 <li class="item">
-                    {% if item.url %}
-                        <a href="{{ item.url }}">{{ item.text }}</a>
+                    {% if item.completed %}
+                        <p>
+                            <span class="sr-only">Completed:</span>
+                            <span class="item__completed">{{ item.text }}</span>
+                            {% if item.completedUrl %}
+                                <a href="{{ item.completedUrl }}">Proof!</a>
+                            {% endif %}
+                        </p>
                     {% else %}
-                        <p>{{ item.text }}</p>
+                        {% if item.url %}
+                            <a href="{{ item.url }}">{{ item.text }}</a>
+                        {% else %}
+                            <p>{{ item.text }}</p>
+                        {% endif %}
                     {% endif %}
                     {% if item.notes %}
                         <p class="item__notes">{{ item.notes }}</p>

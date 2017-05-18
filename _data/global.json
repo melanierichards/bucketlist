@@ -47,7 +47,9 @@
     "text": "and Peru"
 },
 {
-    "text": "and Mexico"
+    "text": "and Mexico",
+    "completed": true,
+    "completedUrl": "https://www.instagram.com/p/BT93GIFgD_i/"
 },
 {
     "text": "and Montreal"

@@ -50,6 +50,10 @@
   color: $color-meta;
 }
 
+.item__completed {
+  text-decoration: line-through;
+}
+
 @media (min-width: $bp-s) {
   .list-view__header {
     padding: 12em $space-m $space-s;
