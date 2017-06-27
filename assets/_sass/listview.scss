@@ -94,6 +94,14 @@ a + .item__notes {
   text-decoration: line-through;
 }
 
+a.item__completed-link {
+  border-bottom: 2px solid #f95948;
+
+  &:hover {
+    border-bottom-color: #000;
+  }
+}
+
 @media (min-width: $bp-s) {
   .item {
     padding-left: 3.25em;

@@ -19,7 +19,7 @@
                             <span class="sr-only">Completed:</span>
                             <span class="item__completed">{{ item.text }}</span>
                             {% if item.completedUrl %}
-                                <a href="{{ item.completedUrl }}">Proof!</a>
+                                <a class="item__completed-link" href="{{ item.completedUrl }}">Done!</a>
                             {% endif %}
                         </p>
                     {% else %}
