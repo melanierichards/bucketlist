@@ -46,7 +46,7 @@
 {
     "text": "and Peru"
 ,
-},
+},,
 {
     "text": "and Mexico",
     "completed": true,
@@ -129,4 +129,8 @@
 },
 {
     "text": "Take a falconry course"
+},
+{
+    "text": "Experience a sound bath",
+    "url": "https://integratron.com/"
 }]
