@@ -22,7 +22,7 @@ body {
   /* Force scrollbars to prevent bouncing effect b/t pages */
   overflow-y: scroll;
 
-  font: 400 112.5%/1.4 $font-body;
+  font: 400 106.25%/1.4 $font-body;
   color: $color-body;
 }
 
@@ -61,18 +61,18 @@ a:hover {
  */
 
 h1, h2 {
-  font: 1.25em/1.125 $font-heading;
+  font: 1.5em/1.125 $font-heading;
   text-transform: uppercase;
   letter-spacing: .05em;
 }
 
 li + li {
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 
 @media (min-width: $bp-s) {
   h1, h2 {
-    font-size: 1.5em;
+    font-size: 1.75em;
   }
 }
 
