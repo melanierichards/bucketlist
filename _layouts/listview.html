@@ -6,6 +6,7 @@
         <h1 class="masthead__title">
             <span>{{ page.title }}</span>
         </h1>
+        {% include masthead-image.html baseSrc = page.slug %}
     </header>
     <div class="list-view__content list-view__content--{{ page.slug }}">
         {{ content }}

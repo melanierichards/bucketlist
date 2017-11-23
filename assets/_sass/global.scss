@@ -61,7 +61,7 @@ a:hover {
  */
 
 h1, h2 {
-  font: 1.5em/1.125 $font-heading;
+  font: 1.325em/1.125 $font-heading;
   text-transform: uppercase;
   letter-spacing: .05em;
 }
@@ -98,23 +98,34 @@ li + li {
   position: fixed;
   z-index: 2;
   top: 2em;
+  top: 3vmin;
   text-align: center;
   width: 100%;
 }
 
 a.site-title {
   display: inline-block;
-  padding: .25em;
   border-bottom: 0;
-
+  background: transparent;
   font-family: $font-heading;
   text-transform: uppercase;
   letter-spacing: .05em;
+
+  span {
+    padding: .25em;
+    background: #fff;
+  }
+
+  &:hover {
+    span {
+      background: #000;
+    }
+  }
 }
 
 .site-title__name {
-  display: block;
-  
+  display: inline-block;
+  margin-bottom: .5em;
   font-family: $font-body;
   font-size: .75em;
 }
@@ -128,7 +139,7 @@ a.site-title {
 
 .masthead {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 
   position: fixed;
   z-index: 1;
@@ -136,10 +147,55 @@ a.site-title {
   left: 0;
   width: 50%;
   height: 100%;
+  overflow: hidden;
 
   padding: $space-s;
 
   text-align: center;
+}
+
+.masthead__image {
+  position: absolute;
+  z-index: -1;
+  height: auto;
+
+  /* Fallback */
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+
+  /* With vmin */
+  bottom: -45vmin;
+  left: 50%;
+  margin-left: -45vmin;
+  width: 90vmin;
+
+  mix-blend-mode: multiply;
+}
+
+.masthead__title {
+  display: inline-block;
+  margin: 0 auto;
+
+  a, span {
+    display: inline-block;
+    padding: .5em;
+  }
+
+  span {
+    background: #fff;
+  }
+
+  a:link, a:visited {
+    border-bottom: 0;
+    background: #000;
+    color: #fff;
+  }
+
+  a:hover {
+    background: #fff;
+    color: #000;
+  }
 }
 
 .masthead--pnw {
@@ -147,33 +203,60 @@ a.site-title {
 }
 
 .masthead--anywhere {
+  align-items: flex-start;
   right: 0;
   left: auto;
   background: $color-anywhere;
-}
 
-.masthead__title {
-  display: inline-block;
-  margin: 0 auto;
-  background: #fff;
+  .masthead__image {
+    bottom: auto;
 
-  a, span {
-    display: inline-block;
-    padding: .5em;
-  }
+    /* Fallback */
+    top: -50%;
 
-  a:link, a:visited {
-    border-bottom: 0;
-  }
-
-  a:hover {
-    background: #000;
-    color: #fff;
+    /* With vmin */
+    top: -45vmin;
   }
 }
 
 @media (min-width: $bp-s) {
   .masthead {
     padding: $space-m;
+  }
+}
+
+@media (min-width: $bp-m) {
+  .masthead {
+    align-items: center;
+  }
+
+  .masthead__image {
+    top: 50%;
+    bottom: auto;
+    left: auto;
+    margin-left: 0;
+  
+    /* Fallback */
+    margin-top: -300px;
+    right: -300px;
+    width: 600px;
+  
+    /* With vmin */
+    margin-top: -45vmin;
+    right: -45vmin;
+    width: 90vmin;
+  }
+
+  .masthead--anywhere {
+    .masthead__image {
+      right: auto;
+      top: 50%;
+
+      /* Fallback */
+      left: -300px;
+    
+      /* With vmin */
+      left: -45vmin;
+    }
   }
 }

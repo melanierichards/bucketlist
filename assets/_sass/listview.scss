@@ -21,6 +21,17 @@
   padding: $space-s;
 }
 
+@media (max-width: $bp-m) {
+  .list-view .masthead--anywhere .masthead__image {
+    /* Fallback */
+    bottom: -50%;
+
+    /* With vmin */
+    top: auto;
+    bottom: -45vmin;
+  }
+}
+
 @media (min-width: $bp-s) {
   .list-view__content {
     padding: $space-m;
