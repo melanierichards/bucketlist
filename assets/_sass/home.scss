@@ -20,3 +20,29 @@
     bottom: 0;
   }
 }
+
+@media (min-width: $bp-m) {
+  @supports (animation-fill-mode: forwards) {
+    .home__masthead .masthead__image {
+      animation: slide 800ms 1s forwards;
+    }
+
+    .home__masthead.masthead--pnw
+      .masthead__image {
+        transform: translateY(2em);
+      }
+    }
+
+    .home__masthead.masthead--anywhere {
+      .masthead__image {
+        transform: translateY(-2em);
+      }
+    }
+  }
+
+  @keyframes slide {
+    to {
+      transform: translateY(0);
+    }
+  }
+}
