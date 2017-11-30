@@ -97,37 +97,24 @@ li + li {
 .site-header {
   position: fixed;
   z-index: 2;
-  top: 2em;
-  top: 3vmin;
+  top: 1.75em;
+  top: 1.75vmin;
   text-align: center;
   width: 100%;
 }
 
 a.site-title {
   display: inline-block;
+  padding: .25em;
   border-bottom: 0;
-  background: transparent;
-  font-family: $font-heading;
+  background: #fff;
+  font-size: .875em;
   text-transform: uppercase;
   letter-spacing: .05em;
 
-  span {
-    padding: .25em;
-    background: #fff;
-  }
-
   &:hover {
-    span {
-      background: #000;
-    }
+    background: #000;
   }
-}
-
-.site-title__name {
-  display: inline-block;
-  margin-bottom: .5em;
-  font-family: $font-body;
-  font-size: .75em;
 }
 
 /*
@@ -242,9 +229,9 @@ a.site-title {
     width: 600px;
   
     /* With vmin */
-    margin-top: -45vmin;
-    right: -45vmin;
-    width: 90vmin;
+    margin-top: -42vmin;
+    right: -42vmin;
+    width: 84vmin;
   }
 
   .masthead--anywhere {
@@ -256,7 +243,13 @@ a.site-title {
       left: -300px;
     
       /* With vmin */
-      left: -45vmin;
+      left: -42vmin;
+    }
+  }
+
+  @media (min-height: 50vw) {
+    a.site-title {
+      background: transparent;
     }
   }
 }
