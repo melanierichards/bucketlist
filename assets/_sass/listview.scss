@@ -89,6 +89,10 @@
     font: .75em/1.75 $font-heading;
     color: $color-meta;
   }
+
+  > a:link {
+    line-height: 1.6;
+  }
 }
 
 .item__notes {
