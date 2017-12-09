@@ -9,7 +9,7 @@
  *  ---------------------------------------------
  */
 
-.list-view__masthead {
+.list-view .masthead {
   position: relative;
   width: 100%;
   height: auto;
@@ -39,7 +39,7 @@
 }
 
 @media (min-width: $bp-m) {
-  .list-view__masthead {
+  .list-view .masthead {
     position: fixed;
     width: 50%;
     height: 100%;

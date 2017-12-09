@@ -97,8 +97,7 @@ li + li {
 .site-header {
   position: fixed;
   z-index: 2;
-  top: 1.75em;
-  top: 1.75vmin;
+  top: 2em;
   text-align: center;
   width: 100%;
 }
@@ -248,6 +247,10 @@ a.site-title {
   }
 
   @media (min-height: 50vw) {
+    .site-header {
+      top: 1.75vmin;
+    }
+
     a.site-title {
       background: transparent;
     }

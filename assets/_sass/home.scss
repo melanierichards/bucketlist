@@ -10,12 +10,12 @@
  */
 
 @media (max-width: $bp-m) {
-  .home__masthead {
+  .body--home .masthead {
     width: 100%;
     height: 50%;
   }
 
-  .home__masthead.masthead--anywhere {
+  .body--home .masthead--anywhere {
     top: auto;
     bottom: 0;
   }
@@ -23,17 +23,17 @@
 
 @media (min-width: $bp-m) {
   @supports (animation-fill-mode: forwards) {
-    .home__masthead .masthead__image {
+    .body--home  .masthead__image {
       animation: slide 800ms 1s forwards;
     }
 
-    .home__masthead.masthead--pnw {
+    .body--home .masthead--pnw {
       .masthead__image {
         transform: translateY(1.5em);
       }
     }
 
-    .home__masthead.masthead--anywhere {
+    .body--home .masthead--anywhere {
       .masthead__image {
         transform: translateY(-1.5em);
       }
