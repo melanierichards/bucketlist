@@ -37,9 +37,15 @@
             {% endfor %}
         </ol>
         {% if page.slug == 'pnw' %}
-            <a class="next-link next-link--anywhere" href="/anywhere/">View the “Anywhere” bucket list</a>
+            <a class="next-link next-link--anywhere" href="/anywhere/">
+                <svg class="next-link__arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="11"><g fill="none" stroke="#787878" stroke-miterlimit="10"><path d="M12.1 10.5l5-5-5-5"/><path d="M.9 1.7c0 .5.1 1 .3 1.4.6 1.3 1.9 2.3 3.5 2.3h12.5"/></g></svg>
+                View the “Anywhere” bucket list
+            </a>
         {% else %}
-            <a class="next-link next-link--pnw" href="/pnw/">View the “Pacific Northwest” bucket list</a>
+            <a class="next-link next-link--pnw" href="/pnw/">
+                <svg class="next-link__arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="11"><g fill="none" stroke="#787878" stroke-miterlimit="10"><path d="M5.9 10.5l-5-5 5-5"/><path d="M17.1 1.7c0 .5-.1 1-.3 1.4-.6 1.3-1.9 2.3-3.5 2.3H.9"/></g></svg>
+                View the “Pacific Northwest” bucket list
+            </a>
         {% endif %}
     </div>
 </article>

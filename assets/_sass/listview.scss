@@ -136,23 +136,32 @@ a.item__completed-link {
 
 .next-link {
   display: inline-block;
+  position: relative;
   margin: 4em 0 0 2.75em;
 }
 
+.next-link__arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+  left: -2.75em;
+  width: 18px;
+}
+
 a.next-link--anywhere {
-  border-bottom: 2px solid darken($color-anywhere, 25%);
+  border-bottom: 2px solid darken($color-anywhere, 15%);
 
   &:hover {
-    background: darken($color-anywhere, 25%);
+    background: darken($color-anywhere, 15%);
     color: #000;
   }
 }
 
 a.next-link--pnw {
-  border-bottom: 2px solid darken($color-pnw, 25%);
+  border-bottom: 2px solid darken($color-pnw, 15%);
 
   &:hover {
-    background: darken($color-pnw, 25%);
+    background: darken($color-pnw, 15%);
     color: #000;
   }
 }
