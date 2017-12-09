@@ -1,0 +1,26 @@
+/*
+ *  =============================================
+ *  ERROR PAGE
+ *  =============================================
+ */
+
+.body--error main {
+  margin: 6em auto 0;
+  padding: 0 $space-s;
+  text-align: center;
+}
+
+.error-msg {
+  margin-top: $space-s;
+}
+
+@media (min-width: $bp-s) {
+  .body--error main {
+    margin: 22vmin auto 0;
+    padding: 0 $space-m;
+  }
+}
+
+@media (min-width: $bp-l) {
+  padding: 0 $space-l;
+}
