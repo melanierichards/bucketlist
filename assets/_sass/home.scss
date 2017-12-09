@@ -20,30 +20,3 @@
     bottom: 0;
   }
 }
-
-@media (min-width: $bp-m) {
-  @supports (animation-fill-mode: forwards) {
-
-    .body--home .masthead__image {
-      animation: slide 800ms 1s forwards;
-    }
-
-    .body--home .masthead--pnw {
-      .masthead__image {
-        transform: translateY(1.5em);
-      }
-    }
-
-    .body--home .masthead--anywhere {
-      .masthead__image {
-        transform: translateY(-1.5em);
-      }
-    }
-  }
-
-  @keyframes slide {
-    to {
-      transform: translateY(0);
-    }
-  }
-}
