@@ -23,7 +23,8 @@
 
 @media (min-width: $bp-m) {
   @supports (animation-fill-mode: forwards) {
-    .body--home  .masthead__image {
+
+    .body--home .masthead__image {
       animation: slide 800ms 1s forwards;
     }
 
