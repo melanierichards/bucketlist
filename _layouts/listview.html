@@ -14,7 +14,7 @@
         {% assign items = site.data.[listCat] %}
         <ol class="bucketlist">
             {% for item in items %}
-                <li class="item">
+                <li class="item {% if item.completed %}js-item--complete{% else %}js-item--incomplete{% endif %}">
                     {% if item.completed %}
                         <p>
                             <span class="sr-only">Completed:</span>

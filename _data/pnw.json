@@ -58,7 +58,8 @@
     "text": "Go to an early-morning spinning class"
 },
 {
-    "text": "Rock climbing at Stone Gardens"
+    "text": "Rock climbing at Stone Gardens",
+    "completed": true
 },
 {
     "text": "Swim in a lake"
