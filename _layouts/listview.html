@@ -36,6 +36,11 @@
                 </li>
             {% endfor %}
         </ol>
+        {% if page.slug == 'pnw' %}
+            <a class="next-link next-link--anywhere" href="/anywhere/">View the “Anywhere” bucket list</a>
+        {% else %}
+            <a class="next-link next-link--pnw" href="/pnw/">View the “Pacific Northwest” bucket list</a>
+        {% endif %}
     </div>
 </article>
 

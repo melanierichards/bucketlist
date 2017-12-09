@@ -128,3 +128,37 @@ a.item__completed-link {
     font-size: .75em;
   }
 }
+
+/*
+ *  NEXT LIST LINK
+ *  ---------------------------------------------
+ */
+
+.next-link {
+  display: inline-block;
+  margin: 4em 0 0 2.75em;
+}
+
+a.next-link--anywhere {
+  border-bottom: 2px solid darken($color-anywhere, 25%);
+
+  &:hover {
+    background: darken($color-anywhere, 25%);
+    color: #000;
+  }
+}
+
+a.next-link--pnw {
+  border-bottom: 2px solid darken($color-pnw, 25%);
+
+  &:hover {
+    background: darken($color-pnw, 25%);
+    color: #000;
+  }
+}
+
+@media (min-width: $bp-s) {
+  .next-link {
+    margin: 5em 0 0 3.25em;
+  }
+}
