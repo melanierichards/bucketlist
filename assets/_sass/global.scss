@@ -259,3 +259,31 @@ a.site-title {
     }
   }
 }
+
+/*
+ *  HIGH CONTRAST
+ *  ---------------------------------------------
+ */
+
+@media screen and (-ms-high-contrast: active) {
+  a:link,
+  a.site-title:link,
+  .masthead__title a:link,
+  .masthead__title a:visited {
+    border-bottom: 2px solid;
+  }
+  
+  a:hover,
+  a.site-title:hover,
+  .masthead__title a:hover {
+    border-bottom-style: dashed !important;
+  }
+
+  a:focus {
+    border-color: transparent;
+  }
+
+  .masthead__title a:focus {
+    outline-offset: 0;
+  }
+}

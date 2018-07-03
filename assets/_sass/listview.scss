@@ -187,3 +187,9 @@ a.next-link--pnw {
     margin: 5em 0 0 3.25em;
   }
 }
+
+@media screen and (-ms-high-contrast: active) {
+  .next-link g {
+    stroke: currentColor;
+  }
+}
