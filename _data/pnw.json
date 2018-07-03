@@ -2,7 +2,9 @@
     "text": "Hike on Mt. Rainier"
 },
 {
-    "text": "Eat at that random diner off Shilshole Ave"
+    "text": "Eat at that random diner off Shilshole Ave",
+    "completed": true,
+    "notes": "It’s called Salmon Bay Cafe and it’s so cute!!"
 },
 {
     "text": "Go camping on the Olympic Peninsula"
@@ -23,7 +25,8 @@
     "text": "Take a dance class"
 },
 {
-    "text": "Get dumplings at Din Tai Fung"
+    "text": "Get dumplings at Din Tai Fung",
+    "completed": true
 },
 {
     "text": "Finally get Friday lunch ramen at Tsukushinbo",
@@ -33,13 +36,12 @@
     "text": "Ride the entire Burke-Gilman trail"
 },
 {
-    "text": "Bike to work"
-},
-{
     "text": "Go tidepooling again…this time, with my guidebook!"
 },
 {
-    "text": "Go whale watching"
+    "text": "Go whale watching",
+    "completed": true,
+    "notes": "We saw a Minke whale, a humpback named Scratchy, and a pod of orcas!"
 },
 {
     "text": "Visit Crater Lake",
@@ -53,9 +55,6 @@
 },
 {
     "text": "Ropes course at Camp Long"
-},
-{
-    "text": "Go to an early-morning spinning class"
 },
 {
     "text": "Rock climbing at Stone Gardens",
