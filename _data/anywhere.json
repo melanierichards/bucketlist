@@ -75,7 +75,7 @@
 {
     "text": "Log 1000 read books on GoodReads",
     "url": "https://www.goodreads.com/review/list/2236850?shelf=read",
-    "notes": "378/1000"
+    "notes": "423/1000"
 },
 {
     "text": "Knit a hat"
@@ -147,4 +147,7 @@
 {
     "text": "Walk one of the Kumano Kodō routes",
     "url": "https://en.wikipedia.org/wiki/Kumano_Kodō"
+},
+{
+    "text": "Take an archery lesson"
 }]
