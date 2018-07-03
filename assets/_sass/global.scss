@@ -27,8 +27,7 @@ body {
 }
 
 :focus {
-  outline: 1px dotted;
-  outline-offset: 1px;
+  outline: 2px solid #f95948;
 }
 
 ::selection {
@@ -53,6 +52,10 @@ a:hover {
   color: #fff;
 
   cursor: pointer;
+}
+
+a:focus {
+  border-color: transparent;
 }
 
 /*
