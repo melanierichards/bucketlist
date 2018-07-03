@@ -11,7 +11,7 @@
     <div class="list-view__content list-view__content--{{ page.slug }}">
         {{ content }}
         {% assign listCat = page.slug %}
-        {% assign items = site.data.[listCat] %}
+        {% assign items = site.data[listCat] %}
         <ol class="bucketlist">
             {% for item in items %}
                 <li class="item {% if item.completed %}js-item--complete{% else %}js-item--incomplete{% endif %}">
