@@ -1,19 +1,21 @@
 {% include head.html %}
 {% include header.html %}
 
-<h1 class="sr-only">Bucket lists compiled by Melanie Richards</h1>
+<main role="main">
+    <h1 class="sr-only">Bucket lists compiled by Melanie Richards</h1>
 
-<div class="masthead masthead--pnw">
-    <h2 class="masthead__title">
-        <a href="/pnw/">Pacific Northwest</a>
-    </h2>
-    {% include masthead-image.html baseSrc = "pnw" %}
-</div>
-<div class="masthead masthead--anywhere">
-    <h2 class="masthead__title">
-        <a href="/anywhere/">Anywhere</a>
-    </h2>
-    {% include masthead-image.html baseSrc = "anywhere" %}
-</div>
+    <div class="masthead masthead--pnw">
+        <h2 class="masthead__title">
+            <a href="/pnw/" aria-label="Pacific Northwest bucket list">Pacific Northwest</a>
+        </h2>
+        {% include masthead-image.html baseSrc = "pnw" %}
+    </div>
+    <div class="masthead masthead--anywhere">
+        <h2 class="masthead__title">
+            <a href="/anywhere/" aria-label="Anywhere bucket list">Anywhere</a>
+        </h2>
+        {% include masthead-image.html baseSrc = "anywhere" %}
+    </div>
+</main>
 
 {% include footer.html %}

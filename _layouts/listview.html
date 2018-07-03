@@ -1,13 +1,13 @@
 {% include head.html %}
 {% include header.html %}
 
-<article class="list-view">
-    <header class="masthead masthead--{{ page.slug }}">
-        <h1 class="masthead__title">
+<main role="main" class="list-view">
+    <div class="masthead masthead--{{ page.slug }}">
+        <h1 aria-label="{{ page.title }} bucket list" class="masthead__title">
             <span>{{ page.title }}</span>
         </h1>
         {% include masthead-image.html baseSrc = page.slug %}
-    </header>
+    </div>
     <div class="list-view__content list-view__content--{{ page.slug }}">
         {{ content }}
         {% assign listCat = page.slug %}
@@ -20,7 +20,7 @@
                             <span class="sr-only">Completed:</span>
                             <span class="item__completed">{{ item.text }}</span>
                             {% if item.completedUrl %}
-                                <a class="item__completed-link" href="{{ item.completedUrl }}">Done!</a>
+                                <a class="item__completed-link" href="{{ item.completedUrl }}" title="{{ item.completedTitle }}">Proof!</a>
                             {% endif %}
                         </p>
                     {% else %}
@@ -38,16 +38,16 @@
         </ol>
         {% if page.slug == 'pnw' %}
             <a class="next-link next-link--anywhere" href="/anywhere/">
-                <svg class="next-link__arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="11"><g fill="none" stroke="#787878" stroke-miterlimit="10"><path d="M12.1 10.5l5-5-5-5"/><path d="M.9 1.7c0 .5.1 1 .3 1.4.6 1.3 1.9 2.3 3.5 2.3h12.5"/></g></svg>
+                <svg aria-hidden="true" class="next-link__arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="11"><g fill="none" stroke="#787878" stroke-miterlimit="10"><path d="M12.1 10.5l5-5-5-5"/><path d="M.9 1.7c0 .5.1 1 .3 1.4.6 1.3 1.9 2.3 3.5 2.3h12.5"/></g></svg>
                 View the “Anywhere” bucket list
             </a>
         {% else %}
             <a class="next-link next-link--pnw" href="/pnw/">
-                <svg class="next-link__arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="11"><g fill="none" stroke="#787878" stroke-miterlimit="10"><path d="M5.9 10.5l-5-5 5-5"/><path d="M17.1 1.7c0 .5-.1 1-.3 1.4-.6 1.3-1.9 2.3-3.5 2.3H.9"/></g></svg>
+                <svg aria-hidden="true" class="next-link__arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="11"><g fill="none" stroke="#787878" stroke-miterlimit="10"><path d="M5.9 10.5l-5-5 5-5"/><path d="M17.1 1.7c0 .5-.1 1-.3 1.4-.6 1.3-1.9 2.3-3.5 2.3H.9"/></g></svg>
                 View the “Pacific Northwest” bucket list
             </a>
         {% endif %}
     </div>
-</article>
+</main>
 
 {% include footer.html %}
