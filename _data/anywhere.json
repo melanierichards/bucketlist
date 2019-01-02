@@ -76,7 +76,7 @@
 {
     "text": "Log 1000 read books on GoodReads",
     "url": "https://www.goodreads.com/review/list/2236850?shelf=read",
-    "notes": "423/1000"
+    "notes": "456/1000"
 },
 {
     "text": "Knit a hat"
@@ -104,10 +104,6 @@
 {
     "text": "Visit Lassen Volcanic Park",
     "url": "https://www.nps.gov/lavo/index.htm"
-},
-{
-    "text": "Stay in an orb treehouse",
-    "url": "http://freespiritspheres.com/"
 },
 {
     "text": "Visit Hay-on-Wye, Wales: “The Town of Books”",
@@ -150,5 +146,6 @@
     "url": "https://en.wikipedia.org/wiki/Kumano_Kodō"
 },
 {
-    "text": "Take an archery lesson"
+    "text": "Take an archery lesson",
+    "completed": true
 }]
