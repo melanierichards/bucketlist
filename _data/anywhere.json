@@ -10,9 +10,6 @@
     "text": "Go hiking in Hawaii"
 },
 {
-    "text": "Have an art show"
-},
-{
     "text": "Attend an out-of-town textile program"
 },
 {
@@ -32,10 +29,12 @@
     "text": "and the Philippines"
 },
 {
-    "text": "Learn to speak some Hindi"
+    "text": "Learn to speak some Hindi",
+    "notes": "Learned a bit but not enough to mark this as completed yet!"
 },
 {
-    "text": "Travel to India"
+    "text": "Travel to India",
+    "completed": true,
 },
 {
     "text": "and Indonesia"
@@ -68,15 +67,12 @@
     "text": "and D.C."
 },
 {
-    "text": "Freelance for a book/publishing company"
-},
-{
     "text": "Visit the Studio Ghibli museum"
 },
 {
     "text": "Log 1000 read books on GoodReads",
     "url": "https://www.goodreads.com/review/list/2236850?shelf=read",
-    "notes": "511/1000"
+    "notes": "556/1000"
 },
 {
     "text": "Knit a hat"
@@ -118,7 +114,8 @@
     "url": "http://www.newgrange.com/solstice-lottery.htm"
 },
 {
-    "text": "Take a falconry course"
+    "text": "Take a falconry course",
+    "notes": "Received a gift certificate for a course, will have to wait for the pandemic to pass!"
 },
 {
     "text": "Experience a sound bath",
@@ -126,9 +123,6 @@
 },
 {
     "text": "Visit Scandinavia in the summer"
-},
-{
-    "text": "Host a book swap"
 },
 {
     "text": "Host a cooking night with friends"
