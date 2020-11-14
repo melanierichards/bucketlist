@@ -1,6 +1,5 @@
 ---
-layout: listview
+layout: layouts/listview.njk
 title: Anywhere
-permalink: /anywhere/
 slug: anywhere
 ---

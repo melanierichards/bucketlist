@@ -1,17 +1,17 @@
-{% include head.html %}
-{% include header.html %}
+{% include "head.njk" %}
+{% include "header.njk" %}
 
 <main role="main" class="list-view">
-    <div class="masthead masthead--{{ page.slug }}">
-        <h1 aria-label="{{ page.title }} bucket list" class="masthead__title">
-            <span>{{ page.title }}</span>
+    <div class="masthead masthead--{{ slug }}">
+        <h1 aria-label="{{ title }} bucket list" class="masthead__title">
+            <span>{{ title }}</span>
         </h1>
-        {% include masthead-image.html baseSrc = page.slug %}
+        {% set baseSrc = slug %}
+        {% include "masthead-image.njk" %}
     </div>
-    <div class="list-view__content list-view__content--{{ page.slug }}">
+    <div class="list-view__content list-view__content--{{ slug }}">
         {{ content }}
-        {% assign listCat = page.slug %}
-        {% assign items = site.data[listCat] %}
+        {% set items = lists[slug] %}
         <ol class="bucketlist">
             {% for item in items %}
                 <li class="item {% if item.completed %}js-item--complete{% else %}js-item--incomplete{% endif %}">
@@ -36,7 +36,7 @@
                 </li>
             {% endfor %}
         </ol>
-        {% if page.slug == 'pnw' %}
+        {% if slug == 'pnw' %}
             <a class="next-link next-link--anywhere" href="/anywhere/">
                 <svg aria-hidden="true" class="next-link__arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="11"><g fill="none" stroke="#787878" stroke-miterlimit="10"><path d="M12.1 10.5l5-5-5-5"/><path d="M.9 1.7c0 .5.1 1 .3 1.4.6 1.3 1.9 2.3 3.5 2.3h12.5"/></g></svg>
                 View the “Anywhere” bucket list
@@ -50,4 +50,4 @@
     </div>
 </main>
 
-{% include footer.html %}
+{% include "footer.njk" %}
