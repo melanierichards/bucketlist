@@ -1,0 +1,155 @@
+[
+    {
+        "text": "Travel to all 50 states",
+        "notes": "14/50"
+    },
+    {
+        "text": "Travel to all 7 continents (or 6, depending on who you ask)",
+        "notes": "3/7"
+    },
+    {
+        "text": "Go hiking in Hawaii"
+    },
+    {
+        "text": "Attend an out-of-town textile program"
+    },
+    {
+        "text": "Take the JLPT",
+        "url": "http://www.jlpt.jp/e/"
+    },
+    {
+        "text": "Learn Korean"
+    },
+    {
+        "text": "Travel to South Korea"
+    },
+    {
+        "text": "and Thailand"
+    },
+    {
+        "text": "and the Philippines"
+    },
+    {
+        "text": "Learn to speak some Hindi",
+        "notes": "Learned a bit but not enough to mark this as completed yet!"
+    },
+    {
+        "text": "Travel to India",
+        "completed": true
+    },
+    {
+        "text": "and Indonesia"
+    },
+    {
+        "text": "and Peru"
+    },
+    {
+        "text": "and Mexico",
+        "completed": true,
+        "completedUrl": "https://www.instagram.com/p/BT93GIFgD_i/",
+        "completedTitle": "Photo from Mexico trip"
+    },
+    {
+        "text": "and Montreal"
+    },
+    {
+        "text": "and New Orleans"
+    },
+    {
+        "text": "and Nashville"
+    },
+    {
+        "text": "and Chicago"
+    },
+    {
+        "text": "and Austin"
+    },
+    {
+        "text": "and D.C."
+    },
+    {
+        "text": "Visit the Studio Ghibli museum"
+    },
+    {
+        "text": "Log 1000 read books on GoodReads",
+        "url": "https://www.goodreads.com/review/list/2236850?shelf=read",
+        "notes": "586/1000"
+    },
+    {
+        "text": "Knit a hat"
+    },
+    {
+        "text": "Knit a sweater"
+    },
+    {
+        "text": "Hike in the Black Forest"
+    },
+    {
+        "text": "Travel to Albania"
+    },
+    {
+        "text": "Take a cooking class"
+    },
+    {
+        "text": "Take a mixology/bar-tending/drink-making class"
+    },
+    {
+        "text": "Attend a live podcast show",
+        "completed": true,
+        "notes": "Attended Harry Potter and the Sacred Text"
+    },
+    {
+        "text": "Visit Lassen Volcanic Park",
+        "url": "https://www.nps.gov/lavo/index.htm"
+    },
+    {
+        "text": "Visit Hay-on-Wye, Wales: “The Town of Books”",
+        "url": "http://www.hay-on-wye.co.uk/tourism/bookshops.asp"
+    },
+    {
+        "text": "Visit Greece",
+        "notes": "Including eating lots of seafood on Crete!"
+    },
+    {
+        "text": "Visit Newgrange, Ireland on the winter solstice",
+        "url": "http://www.newgrange.com/solstice-lottery.htm"
+    },
+    {
+        "text": "Take a falconry course",
+        "notes": "Received a gift certificate for a course, will have to wait for the pandemic to pass!"
+    },
+    {
+        "text": "Experience a sound bath",
+        "url": "https://integratron.com/"
+    },
+    {
+        "text": "Visit Scandinavia in the summer"
+    },
+    {
+        "text": "Host a cooking night with friends"
+    },
+    {
+        "text": "Observe the Perseid meteor shower",
+        "notes": "Happens in August"
+    },
+    {
+        "text": "Visit Banff National Park",
+        "url": "http://banffnationalpark.com/"
+    },
+    {
+        "text": "Walk one of the Kumano Kodō routes",
+        "url": "https://en.wikipedia.org/wiki/Kumano_Kodō"
+    },
+    {
+        "text": "Take an archery lesson",
+        "completed": true
+    },
+    {
+        "text": "See the aurora borealis",
+        "url": "https://www.wellandgood.com/good-travel/best-place-to-see-northern-lights/"
+    },
+    {
+        "text": "Visit an olive oil farm in Italy",
+        "url": "https://www.italymagazine.com/featured-story/traveling-around-italys-olive-oil-farms"
+    }
+]

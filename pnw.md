@@ -1,6 +1,5 @@
 ---
-layout: listview
+layout: layouts/listview.njk
 title: Pacific Northwest
-permalink: /pnw/
 slug: pnw
 ---

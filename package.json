@@ -1,0 +1,27 @@
+{
+  "name": "bucketlist",
+  "version": "1.0.0",
+  "description": "Minisite for bucket list items :]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melanierichards/bucketlist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melanierichards/bucketlist/issues"
+  },
+  "homepage": "https://github.com/melanierichards/bucketlist#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}

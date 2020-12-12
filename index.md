@@ -1,4 +1,4 @@
 ---
-layout: home
+layout: layouts/home.njk
 slug: home
 ---

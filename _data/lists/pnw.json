@@ -1,0 +1,116 @@
+[
+    {
+        "text": "Hike on Mt. Rainier"
+    },
+    {
+        "text": "Eat at that random diner off Shilshole Ave",
+        "completed": true,
+        "notes": "It’s called Salmon Bay Cafe and it’s so cute!!"
+    },
+    {
+        "text": "Go camping on the Olympic Peninsula"
+    },
+    {
+        "text": "Do some guided foraging"
+    },
+    {
+        "text": "Visit Vancouver (the real one, in Canada)"
+    },
+    {
+        "text": "Swim in a swimming hole"
+    },
+    {
+        "text": "Take a dance class"
+    },
+    {
+        "text": "Get dumplings at Din Tai Fung",
+        "completed": true
+    },
+    {
+        "text": "Finally get Friday lunch ramen at Tsukushinbo",
+        "completed": true
+    },
+    {
+        "text": "Go tidepooling again…this time, with my guidebook!"
+    },
+    {
+        "text": "Go whale watching",
+        "completed": true,
+        "notes": "We saw a Minke whale, a humpback named Scratchy, and a pod of orcas!"
+    },
+    {
+        "text": "Visit Crater Lake",
+        "url": "https://www.nps.gov/crla/index.htm"
+    },
+    {
+        "text": "Explore Vashon Island",
+        "completed": true
+    },
+    {
+        "text": "Volunteer at a WTA trail work party"
+    },
+    {
+        "text": "Go rock climbing at Stone Gardens",
+        "completed": true
+    },
+    {
+        "text": "Swim in a lake",
+        "completed": true
+    },
+    {
+        "text": "Camp in the San Juan islands"
+    },
+    {
+        "text": "Float down a river"
+    },
+    {
+        "text": "Rent a cabin for a weekend",
+        "completed": true
+    },
+    {
+        "text": "Go clam digging",
+        "url": "http://wdfw.wa.gov/fishing/shellfish/beaches/MapArea/10/",
+        "completed": true
+    },
+    {
+        "text": "Go scuba diving in the Puget Sound",
+        "url": "http://www.boydski.com/diving/pugetsound.htm"
+    },
+    {
+        "text": "Visit Shi Shi Beach",
+        "url": "http://www.wta.org/go-hiking/hikes/north-shi-shi-access"
+    },
+    {
+        "text": "Get chili from Mike’s chili",
+        "completed": true
+    },
+    {
+        "text": "Pick apples at an orchard"
+    },
+    {
+        "text": "Pick blueberries at Brooklake Blueberry Farm: Federal Way",
+        "notes": "Free and open to the public"
+    },
+    {
+        "text": "Attend an interfaith event with MAPS",
+        "url": "http://www.mapsredmond.org/"
+    },
+    {
+        "text": "Log 50 hiked trails on WTA",
+        "notes": "30/50 trails",
+        "url": "http://www.wta.org/@@backpacks/somelaniesaid/hikes?title=&region=all&subregion=all&rating=0&show_incomplete=on&highpoint=&searchabletext=&sort=&format=list&hikes=hiked&_authenticator=a51866736f958bd43ede696be32a8ac3ecf4df8c"
+    },
+    {
+        "text": "Explore the Hoh Rain Forest",
+        "url": "https://www.nytimes.com/2017/11/08/t-magazine/hoh-rain-forest-quietest-place.html",
+        "completed": true
+    },
+    {
+        "text": "Go rockhounding",
+        "url": "https://www.dnr.wa.gov/rockhounding"
+    },
+    {
+        "text": "Stay in an orb treehouse",
+        "url": "http://freespiritspheres.com/"
+    }
+]

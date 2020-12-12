@@ -1,5 +1,5 @@
-{% include head.html %}
-{% include header.html %}
+{% include "head.njk" %}
+{% include "header.njk" %}
 
 <main role="main">
     <h1 class="sr-only">Bucket lists compiled by Melanie Richards</h1>
@@ -8,14 +8,16 @@
         <h2 class="masthead__title">
             <a href="/pnw/" aria-label="Pacific Northwest bucket list">Pacific Northwest</a>
         </h2>
-        {% include masthead-image.html baseSrc = "pnw" %}
+        {% set baseSrc = "pnw" %}
+        {% include "masthead-image.njk" %}
     </div>
     <div class="masthead masthead--anywhere">
         <h2 class="masthead__title">
             <a href="/anywhere/" aria-label="Anywhere bucket list">Anywhere</a>
         </h2>
-        {% include masthead-image.html baseSrc = "anywhere" %}
+        {% set baseSrc = "anywhere" %}
+        {% include "masthead-image.njk" %}
     </div>
 </main>
 
-{% include footer.html %}
+{% include "footer.njk" %}
