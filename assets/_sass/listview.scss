@@ -193,3 +193,9 @@ a.next-link--pnw {
     stroke: currentColor;
   }
 }
+
+@media (forced-colors: active) {
+  .next-link g {
+    stroke: CanvasText;
+  }
+}

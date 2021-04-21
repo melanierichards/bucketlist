@@ -265,7 +265,7 @@ a.site-title {
  *  ---------------------------------------------
  */
 
-@media screen and (-ms-high-contrast: active) {
+@media (-ms-high-contrast: active), (forced-colors: active) {
   a:link,
   a.site-title:link,
   .masthead__title a:link,
@@ -281,6 +281,10 @@ a.site-title {
 
   a:focus {
     border-color: transparent;
+  }
+
+  .masthead__image {
+    mix-blend-mode: normal;
   }
 
   .masthead__title a:focus {
