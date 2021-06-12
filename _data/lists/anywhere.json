@@ -4,9 +4,6 @@
         "url": "http://www.jlpt.jp/e/"
     },
     {
-        "text": "Attend an out-of-town textile program"
-    },
-    {
         "text": "Learn Korean"
     },
     {
@@ -53,6 +50,9 @@
     {
         "text": "Take an archery lesson",
         "completed": true
+    },
+    {
+        "text": "Attend an out-of-town textile program"
     },
     {
         "text": "Go hiking in Hawaii"
