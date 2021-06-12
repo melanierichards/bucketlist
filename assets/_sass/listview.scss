@@ -21,15 +21,13 @@
   padding: $space-s;
 }
 
-@media (max-width: $bp-m) {
-  .list-view .masthead--anywhere .masthead__image {
-    /* Fallback */
-    bottom: -50%;
+.list-view .masthead--anywhere .masthead__image {
+  /* Fallback */
+  bottom: -50%;
 
-    /* With vmin */
-    top: auto;
-    bottom: -45vmin;
-  }
+  /* With vmin */
+  top: auto;
+  bottom: -45vmin;
 }
 
 @media (min-width: $bp-s) {
@@ -45,6 +43,11 @@
     height: 100%;
 
     padding-top: $space-m;
+  }
+
+  .list-view .masthead--anywhere .masthead__image {
+    top: 50%;
+    bottom: auto;
   }
 
   .list-view__content {

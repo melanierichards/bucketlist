@@ -9,14 +9,19 @@
  *  ---------------------------------------------
  */
 
-@media (max-width: $bp-m) {
-  .body--home .masthead {
-    width: 100%;
-    height: 50%;
-  }
+.body--home .masthead {
+  width: 100%;
+  height: 50%;
+}
 
-  .body--home .masthead--anywhere {
-    top: auto;
-    bottom: 0;
+.body--home .masthead--anywhere {
+  top: auto;
+  bottom: 0;
+}
+
+@media (min-width: $bp-m) {
+  .body--home .masthead {
+    width: 50%;
+    height: 100%;
   }
 }
