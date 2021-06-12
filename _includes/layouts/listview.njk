@@ -17,7 +17,7 @@
                 <li class="item {% if item.completed %}js-item--complete{% else %}js-item--incomplete{% endif %}">
                     {% if item.completed %}
                         <p>
-                            <span class="sr-only">Completed:</span>
+                            <span class="u-vis-hidden">Completed:</span>
                             <span class="item__completed">{{ item.text }}</span>
                             {% if item.completedUrl %}
                                 <a class="item__completed-link" href="{{ item.completedUrl }}" title="{{ item.completedTitle }}">Proof!</a>
