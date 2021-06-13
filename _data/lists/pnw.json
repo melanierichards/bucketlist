@@ -8,7 +8,7 @@
         "notes": "It’s called Salmon Bay Cafe and it’s so cute!!"
     },
     {
-        "text": "Go camping on the Olympic Peninsula"
+        "text": "Go camping on the Olympic Peninsula or one of the islands"
     },
     {
         "text": "Do some guided foraging"
@@ -58,7 +58,7 @@
         "completed": true
     },
     {
-        "text": "Camp in the San Juan islands"
+        "text": "Visit the San Juan islands"
     },
     {
         "text": "Float down a river"
@@ -112,5 +112,12 @@
     {
         "text": "Stay in an orb treehouse",
         "url": "http://freespiritspheres.com/"
+    },
+    {
+        "text": "Attend an Urban Sketchers Seattle event",
+        "url": "http://seattle.urbansketchers.org/"
+    },
+    {
+        "text": "Shop at Asian Family Mart"
     }
 ]
