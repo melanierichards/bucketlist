@@ -13,6 +13,4 @@ A personal minisite for bucket list items. Built with [Eleventy](https://www.11t
 
 | Command                    | Purpose                      |
 | -------------------------- | ---------------------------- |
-| npx @11ty/eleventy --serve | Serve project                |
-| gulp sass:watch            | Watch and build sass files   |
-| gulp minify-css            | Compress the output CSS file |
+| npm run start              | Serve project + watch Sass   |

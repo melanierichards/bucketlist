@@ -22,5 +22,7 @@
 }
 
 @media (min-width: $bp-l) {
-  padding: 0 $space-l;
+  .body--error main {
+    padding: 0 $space-l;
+  }
 }
