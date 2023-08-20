@@ -13,7 +13,7 @@
         "notes": "Technically it was glamping (at Copalis Beach), but close enough!"
     },
     {
-        "text": "Do some guided foraging"
+        "text": "Take a guided foraging class"
     },
     {
         "text": "Visit Vancouver (the real one, in Canada)"
@@ -108,10 +108,6 @@
         "url": "https://www.dnr.wa.gov/rockhounding"
     },
     {
-        "text": "Stay in an orb treehouse",
-        "url": "http://freespiritspheres.com/"
-    },
-    {
         "text": "Attend an Urban Sketchers Seattle event",
         "url": "http://seattle.urbansketchers.org/",
         "completed": true,
@@ -119,5 +115,8 @@
     },
     {
         "text": "Shop at Asian Family Mart"
+    },
+    {
+        "text": "Sip amari at Barnacle"
     }
 ]

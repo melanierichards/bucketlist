@@ -3,12 +3,7 @@
         "text": "Complete Genki I and II"
     },
     {
-        "text": "Get to level 60 in WaniKani",
-        "notes": "Currently stalling out on level 4"
-    },
-    {
-        "text": "Take the JLPT",
-        "url": "http://www.jlpt.jp/e/"
+        "text": "Get to level 60 in WaniKani"
     },
     {
         "text": "Learn Korean"
@@ -19,8 +14,7 @@
     },
     {
         "text": "Log 1000 read books",
-        "url": "https://literal.club/melanierichards",
-        "notes": "704/1000"
+        "notes": "780/1000"
     },
     {
         "text": "Knit a hat"
@@ -32,7 +26,7 @@
         "text": "Take a cooking class"
     },
     {
-        "text": "Take a mixology/bar-tending/drink-making class"
+        "text": "Take a mixology class"
     },
     {
         "text": "Attend a live podcast show",
@@ -71,36 +65,20 @@
         "text": "Make ice cream"
     },
     {
-        "text": "Bake 3 types of bread"
-    },
-    {
-        "text": "Refresh my Spanish enough to read a novel without too much trouble"
-    },
-    {
-        "text": "Read a book set in every U.S. state",
-        "url": "https://www.notion.so/melanierichards/017699a02fe0470fb4302909fe37383e?v=bd3e14da98f34d088c867b52e832f1c0",
-        "notes": "28/50"
-    },
-    {
-        "text": "Read a book set in every country",
-        "url": "https://www.notion.so/melanierichards/9dceaa2346194a09bf8abe36f24eead8?v=690961833cbc491f966d5cb22765a807",
-        "notes": "16/195"
+        "text": "Bake bread"
     },
     {
         "text": "Make pasta"
     },
     {
-        "text": "Have a garden"
-    },
-    {
-        "text": "Learn Python"
+        "text": "Plant a vegetable garden"
     },
     {
         "text": "Run 300 miles in a year"
     },
     {
         "text": "Read or downsize all the English-language books on my shelves",
-        "notes": "Currently have ~2 shelves worth on my bookcase"
+        "notes": "Currently have ~1 shelf worth on my bookcase"
     },
     {
         "text": "Meet a famous person"
@@ -116,10 +94,11 @@
         "text": "Knit socks"
     },
     {
-        "text": "Attend an out-of-town textile program"
+        "text": "Go on a trip or retreat related to creative hobbies"
     },
     {
-        "text": "Go hiking in Hawaii"
+        "text": "Hike/walk a trail in Hawaii",
+        "completed": true
     },
     {
         "text": "Visit the Studio Ghibli museum"
@@ -159,6 +138,9 @@
         "text": "See the fall foliage in New England"
     },
     {
+        "text": "Attend an NBA game"
+    },
+    {
         "text": "Travel to all 50 states",
         "notes": "14/50"
     },
@@ -176,7 +158,7 @@
         "text": "and the Philippines"
     },
     {
-        "text": "Travel to India",
+        "text": "and India",
         "completed": true
     },
     {
@@ -184,6 +166,9 @@
     },
     {
         "text": "and Peru"
+    },
+    {
+        "text": "and Chile"
     },
     {
         "text": "and Mexico",
@@ -217,6 +202,15 @@
         "notes": "Including eating lots of seafood on Crete!"
     },
     {
-        "text": "and Scandinavia in the summer"
+        "text": "and Scandinavia"
+    },
+    {
+        "text": "and Alaska"
+    },
+    {
+        "text": "and Hokkaido"
+    },
+    {
+        "text": "and Osaka"
     }
 ]
