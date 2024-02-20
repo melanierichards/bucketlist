@@ -14,7 +14,7 @@
     },
     {
         "text": "Log 1000 read books",
-        "notes": "780/1000"
+        "notes": "829/1000"
     },
     {
         "text": "Knit a hat"
@@ -65,20 +65,21 @@
         "text": "Make ice cream"
     },
     {
-        "text": "Bake bread"
+        "text": "Bake bread",
+        "completed": true,
+        "notes": "Baked nisu with my husband"
     },
     {
-        "text": "Make pasta"
+        "text": "Make pasta",
+        "completed": true,
+        "notes": "Made some fettuccini"
     },
     {
         "text": "Plant a vegetable garden"
     },
     {
-        "text": "Run 300 miles in a year"
-    },
-    {
         "text": "Read or downsize all the English-language books on my shelves",
-        "notes": "Currently have ~1 shelf worth on my bookcase"
+        "notes": "Currently have ~half of shelf worth on my bookcase"
     },
     {
         "text": "Meet a famous person"
@@ -91,7 +92,8 @@
         "notes": "0/7"
     },
     {
-        "text": "Knit socks"
+        "text": "Knit socks",
+        "notes": "Currently in progress"
     },
     {
         "text": "Go on a trip or retreat related to creative hobbies"
