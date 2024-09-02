@@ -6,13 +6,6 @@
         "text": "Get to level 60 in WaniKani"
     },
     {
-        "text": "Learn Korean"
-    },
-    {
-        "text": "Learn to speak some Hindi",
-        "notes": "Learned a bit but not enough to mark this as completed yet!"
-    },
-    {
         "text": "Log 1000 read books",
         "notes": "829/1000"
     },
@@ -149,70 +142,5 @@
     {
         "text": "Travel to all 7 continents (or 6, depending on who you ask)",
         "notes": "3/7"
-    },
-    {
-        "text": "Travel to South Korea"
-    },
-    {
-        "text": "and Thailand"
-    },
-    {
-        "text": "and the Philippines"
-    },
-    {
-        "text": "and India",
-        "completed": true
-    },
-    {
-        "text": "and Indonesia"
-    },
-    {
-        "text": "and Peru"
-    },
-    {
-        "text": "and Chile"
-    },
-    {
-        "text": "and Mexico",
-        "completed": true,
-        "completedUrl": "https://www.instagram.com/p/BT93GIFgD_i/",
-        "completedTitle": "Photo from Mexico trip"
-    },
-    {
-        "text": "and Montreal"
-    },
-    {
-        "text": "and New Orleans"
-    },
-    {
-        "text": "and Nashville"
-    },
-    {
-        "text": "and Chicago"
-    },
-    {
-        "text": "and Austin"
-    },
-    {
-        "text": "and D.C."
-    },
-    {
-        "text": "and Albania"
-    },
-    {
-        "text": "and Greece",
-        "notes": "Including eating lots of seafood on Crete!"
-    },
-    {
-        "text": "and Scandinavia"
-    },
-    {
-        "text": "and Alaska"
-    },
-    {
-        "text": "and Hokkaido"
-    },
-    {
-        "text": "and Osaka"
     }
 ]
