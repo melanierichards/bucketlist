@@ -117,6 +117,7 @@
         "text": "Shop at Asian Family Mart"
     },
     {
-        "text": "Sip amari at Barnacle"
+        "text": "Sip amari at Barnacle",
+        "completed": true
     }
 ]
