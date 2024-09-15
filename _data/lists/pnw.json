@@ -75,10 +75,6 @@
         "completed": true
     },
     {
-        "text": "Go scuba diving in the Puget Sound",
-        "url": "http://www.boydski.com/diving/pugetsound.htm"
-    },
-    {
         "text": "Visit Shi Shi Beach",
         "url": "http://www.wta.org/go-hiking/hikes/north-shi-shi-access"
     },
@@ -90,8 +86,7 @@
         "text": "Pick apples at an orchard"
     },
     {
-        "text": "Pick blueberries at Brooklake Blueberry Farm: Federal Way",
-        "notes": "Free and open to the public"
+        "text": "Pick blueberries at a farm"
     },
     {
         "text": "Log 50 hiked trails on WTA",
@@ -119,5 +114,9 @@
     {
         "text": "Sip amari at Barnacle",
         "completed": true
+    },
+    {
+        "text": "Scuba dive in the Edmonds Underwater Park",
+        "url": "https://www.edmondsunderwaterpark.com/"
     }
 ]
