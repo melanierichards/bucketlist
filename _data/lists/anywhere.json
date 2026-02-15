@@ -7,10 +7,13 @@
     },
     {
         "text": "Log 1000 read books",
-        "notes": "829/1000"
+        "notes": "942/1000"
     },
     {
-        "text": "Knit a hat"
+        "text": "Knit a hat",
+        "notes": "Knit a beanie following a Pacific Knit Co pattern",
+        "url": "https://making.melanie-richards.com/seattle-kraken-hat/",
+        "completed": true
     },
     {
         "text": "Knit a sweater"
@@ -28,7 +31,7 @@
     },
     {
         "text": "Take a falconry course",
-        "notes": "Received a gift certificate for a course, will have to wait for the pandemic to pass!"
+        "notes": "Received a gift certificate for a course"
     },
     {
         "text": "Experience a sound bath",
@@ -49,7 +52,10 @@
         "text": "Go horseback riding"
     },
     {
-        "text": "Sew a quilt"
+        "text": "Sew a quilt",
+        "notes": "Made one for my daughter",
+        "url": "https://making.melanie-richards.com/granny-core-baby-quilt/",
+        "completed": true
     },
     {
         "text": "Try another kind of meditation other than mindfulness"
@@ -68,6 +74,9 @@
         "notes": "Made some fettuccini"
     },
     {
+        "text": "Make pickles"
+    },
+    {
         "text": "Plant a vegetable garden"
     },
     {
@@ -81,12 +90,10 @@
         "text": "See a bear in the wild"
     },
     {
-        "text": "Complete each of my jigsaw puzzles once",
-        "notes": "0/7"
-    },
-    {
         "text": "Knit socks",
-        "notes": "Currently in progress"
+        "completed": true,
+        "notes": "Knit a couple pairs following Summer Lee’s patterns",
+        "url": "https://making.melanie-richards.com/flower-power-socks/"
     },
     {
         "text": "Go on a trip or retreat related to creative hobbies"
@@ -123,7 +130,8 @@
     },
     {
         "text": "See the aurora borealis",
-        "url": "https://www.wellandgood.com/good-travel/best-place-to-see-northern-lights/"
+        "completed": true,
+        "notes": "Saw one in our own dang neighborhood!"
     },
     {
         "text": "Visit an olive oil farm in Italy",
@@ -140,7 +148,7 @@
         "notes": "14/50"
     },
     {
-        "text": "Travel to all 7 continents (or 6, depending on who you ask)",
+        "text": "Travel to all 7 continents",
         "notes": "3/7"
     }
 ]
